@@ -3,6 +3,7 @@ import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import HomePage from './pages/HomePage';
 import Dashboard from './pages/Dashboard';
+import AdminDashboard from './pages/AdminDashboard';
 import Marketplace from './pages/Marketplace';
 import Pricing from './pages/Pricing';
 import AIToolsPage from './pages/AIToolsPage';
@@ -29,6 +30,7 @@ export default function App() {
             <Routes>
               <Route path="/" element={<HomePage />} />
               <Route path="/dashboard" element={<Dashboard />} />
+              <Route path="/admin" element={<AdminDashboard />} />
               <Route path="/marketplace" element={<Marketplace />} />
               <Route path="/pricing" element={<Pricing />} />
               <Route path="/ai-tools" element={<AIToolsPage />} />
